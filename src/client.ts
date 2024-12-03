@@ -27,7 +27,7 @@ export class GF2BBSClient {
   });
 
   constructor(private username: string, password: string) {
-    this.password = encrypt(password);
+    this.password = password;
   }
 
   async login() {
