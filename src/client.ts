@@ -1,6 +1,5 @@
 import { createApi } from './api';
 import { API_BASE, COMMON_HEADER } from './const';
-import encrypt from './encrypt';
 import type { GF2API, GF2APIResp, ExchangeItem } from './types';
 
 export class GF2BBSClient {
