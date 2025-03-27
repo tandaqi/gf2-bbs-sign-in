@@ -7,7 +7,7 @@ if (!BBS_USERNAME || !BBS_PASSWORD) {
   process.exit(1);
 }
 
-const autoExchange = (AUTO_EXCHANGE || '基原信息核,次世代内存条,萨狄斯金,情报拼图,战场报告,解析图纸').split(',');
+const autoExchange = (AUTO_EXCHANGE || '基原信息核,次世代内存条,萨狄斯金,情报拼图,战场报告,解析图纸,火控校准芯片').split(',');
 
 console.log('自动兑换:', autoExchange);
 
